@@ -32,7 +32,7 @@ if(isset($_POST['submit receita'])){
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="C:\Users\zanin\OneDrive\Documentos\GitHub\DesafioPubFuture\CadastrarReceitas.html">Cadastrar Receitas</a>
+              <a class="nav-link active" aria-current="page" href="C:\Users\zanin\OneDrive\Documentos\GitHub\DesafioPubFuture\CadastrarReceitas.php">Cadastrar Receitas</a>
               <a class="nav-link active" href="C:\Users\zanin\OneDrive\Documentos\GitHub\DesafioPubFuture\CadastrarDespesas.html">Cadastrar Despesas</a>
               <a class="nav-link active" href="C:\Users\zanin\OneDrive\Documentos\GitHub\DesafioPubFuture\CadastrarContas.html">Cadastrar Contas</a>
             </div>
@@ -42,11 +42,11 @@ if(isset($_POST['submit receita'])){
     <form class="row g-3" method="POST" action="PaginaPrincipal.html">
     <div class="col-md-6">
       <label for="inputEmail4" class="form-label">Valor da Receita</label>
-      <input type="email" class="form-control" id="inputEmail4" name="Valor">
+      <input type="text" class="form-control" id="inputEmail4" name="Valor">
     </div>
     <div class="col-md-6">
       <label for="inputPassword4" class="form-label">Data de recebimento</label>
-      <input type="password" class="form-control" id="inputPassword4" name="Data de recebimento">
+      <input type="text" class="form-control" id="inputPassword4" name="Data de recebimento">
     </div>
     <div class="col-12">
       <label for="inputAddress" class="form-label">Data de recebimento esperado (Caso seja um dinheiro imprevisto, defina isso em tipo de receita)</label>
